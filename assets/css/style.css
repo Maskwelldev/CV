@@ -6,18 +6,28 @@ h4 {
     color: #f63b02;
 }
 
+
+.background-container {
+
+    margin-top: 15px
+
+
+}
 /* fix for bootstrap container-fluid oddity ... because The .row adds a 15px margin to the left and right. Since .container-fluid fills up 100% of the screen width, the extra margin space causes overflow issues. */
-body {
-    /* overflow-x: hidden; */
-    /* or as well: */
+/* body {
+    overflow-x: hidden;
+    or as well:
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
+} */
+
 
 .navbar {
+    /* background-color: #F36A3F !important; */
     background-color: #7b25e4 !important;
+
 }
 
 .navbar-brand {
@@ -51,7 +61,14 @@ body {
     overflow: hidden;
 }
 
-h1 {}
+.fab {
+    color: "";
+}
+
+.fab:hover {
+    color: #7b25e4;
+}
+
 
 .titleDev {
     font-size: 1.2rem;
@@ -85,7 +102,7 @@ h1 {}
     justify-content: space-around;
     align-items: center;
     width: 50px;
-    top: 260px;
+    top: 230px;
 
 }
 
@@ -106,17 +123,17 @@ h1 {}
 
 /* typewritter effect with keyframes */
 .typewriter {
-
+    animation-delay: 2s;
     display: inline-block;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange;
+    /* border-right: .15em solid orange; */
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
     margin: 0 auto;
     /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em;
+    /* letter-spacing: .15em; */
     /* Adjust as needed */
     animation:
         typing 3.5s steps(200, end),
