@@ -33,10 +33,7 @@ p {
 }
 
 body {
-    background: url(/assets/img/background-dev.webp) no-repeat center center fixed;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; */
+    background: url(../img/background-dev.webp) no-repeat center center fixed;
     background-size: cover;
 }
 
