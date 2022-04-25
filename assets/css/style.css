@@ -1,34 +1,44 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     font-family: Roboto;
-    color: #f63b02;
+    color: white;
 }
 
+p {
+    color: white;
+}
+
+.title-name {
+    color: rgb(255, 255, 255) !important;
+}
 
 .background-container {
-
     margin-top: 15px
-
-
 }
-/* fix for bootstrap container-fluid oddity ... because The .row adds a 15px margin to the left and right. Since .container-fluid fills up 100% of the screen width, the extra margin space causes overflow issues. */
-/* body {
-    overflow-x: hidden;
-    or as well:
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-} */
 
+.card-text {
+    color: black;
+}
 
 .navbar {
     /* background-color: #F36A3F !important; */
     background-color: #7b25e4 !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    
 
 }
+
+body { 
+    background: url(/assets/img/background-dev.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 .navbar-brand {
     font-size: 1rem !important;
@@ -39,19 +49,20 @@ h4 {
     transition: all 0.8s;
 }
 
+.card img {
+    transition: all 0.8s;
+}
+
 .card-container:hover {
     box-shadow: 0 70px 63px -60px #7b25e4;
     /* transform: rotate(7deg); */
-}
-
-.card img {
-    transition: all 0.8s;
 }
 
 .card:hover img {
     /* transform: scale(2); */
     transform: translate(52%, 40%) scale(2.1);
 }
+
 
 .img-container {
     overflow: hidden;
@@ -92,6 +103,12 @@ h4 {
 .progress-bar {
     background-color: #7b25e4 !important;
 }
+
+label {
+    color: white;
+}
+
+
 
 /* personnalisation des icones */
 .card-icons {
