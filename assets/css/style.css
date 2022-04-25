@@ -237,7 +237,7 @@ label {
 }
 
 .timeline .event {
-    border-bottom: 1px dashed #e8ebf1;
+    /* border-bottom: 1px dashed #e8ebf1; */
     padding-bottom: 25px;
     margin-bottom: 25px;
     position: relative;
@@ -245,7 +245,7 @@ label {
 
 @media (max-width: 767px) {
     .timeline .event {
-        padding-top: 30px;
+        /* padding-top: 30px; */
     }
 }
 
