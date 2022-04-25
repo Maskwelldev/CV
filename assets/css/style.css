@@ -1,3 +1,8 @@
+body {
+    background: url(../img/background-dev3.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
 h1,
 h2,
 h3,
@@ -30,11 +35,6 @@ p {
     background-repeat: no-repeat;
 
 
-}
-
-body {
-    background: url(../img/background-dev3.png) no-repeat center center fixed;
-    background-size: cover;
 }
 
 .navbar-brand {
@@ -105,9 +105,17 @@ label {
     color: white;
 }
 
+.resume-list {
+    border-left: 2px solid white;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
 
+.resume-list-title {
+    text-transform: uppercase;
+}
 
-/* personnalisation des icones */
+/* personnalisation des icones de la carte */
 .card-icons {
     position: absolute;
     display: flex;
@@ -177,4 +185,8 @@ label {
     50% {
         border-color: white;
     }
+}
+
+@media (min-width) {
+
 }
