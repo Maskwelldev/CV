@@ -1,5 +1,5 @@
 body {
-    background: url(../img/backgroundtest) no-repeat center center fixed;
+    background: url(../img/backgroundtest.jpg) no-repeat center center fixed;
     background-size: cover; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -46,6 +46,7 @@ p {
 
 .user-quote {
     font-size: 1.1rem !important;
+    text-align: justify;
 }
 
 .title-name {
@@ -155,6 +156,7 @@ video {
 
 label {
     color: white;
+    padding-bottom: 3px;
 }
 
 .resume-list {
@@ -408,7 +410,7 @@ label {
 
 @media (max-width: 767px) {
     body {
-        background: url(../img/backgroundtest) no-repeat center center fixed;
+        background: url(../img/backgroundMobile.jpg) no-repeat center center fixed;
     }
     .backgroundSetting {
         padding-left: 24px;
