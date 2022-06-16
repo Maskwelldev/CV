@@ -16,7 +16,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5, 
+h6 {
     font-family: 'Roboto Mono', monospace;
     color: white;
 }
@@ -56,7 +57,7 @@ p {
 }
 
 .card-text {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -81,6 +82,7 @@ p {
 .card-container {
     box-shadow: 0 1px 1px 0px black;
     transition: all 0.8s;
+    background-color: rgba(0, 0, 0, 0.244);
 }
 
 .card img {
@@ -251,7 +253,11 @@ label {
     }
 }
 
-@media (min-width) {}
+@media (min-width: 768px) {
+    .user-quote {
+        padding-right: 24px;
+    }
+}
 
 /* timeline */
 
@@ -396,8 +402,8 @@ label {
 }
 
 .paddingSetting {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 @media (max-width: 767px) {
@@ -405,13 +411,13 @@ label {
         background: url(../img/backgroundtest) no-repeat center center fixed;
     }
     .backgroundSetting {
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
     .paddingSetting {
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 
