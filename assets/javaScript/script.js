@@ -1,5 +1,6 @@
 // on crée une fonction qui déclenchera l'animation au scroll
 function reveal() {
+    // on cible tous les reveal éléments
     var reveals = document.querySelectorAll(".reveal");
     for (var i = 0; i < reveals.length; i++) {
         var windowHeight = window.innerHeight;
@@ -13,7 +14,7 @@ function reveal() {
     }
 }
 
+// on check la position du scroll au chargement de la page
 window.addEventListener("scroll", reveal);
 
-// To check the scroll position on page load
 reveal();

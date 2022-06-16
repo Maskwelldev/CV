@@ -10,9 +10,6 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
-
-
-    /* backdrop-filter: blur(2px); */
 }
 
 h1,
@@ -239,7 +236,13 @@ label {
     border-left: 3px solid #aaabe9;
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
-    background: rgba(114, 124, 245, 0.09);
+    /* background: rgba(114, 124, 245, 0.09); */
+    background: rgba(255, 255, 255, 0.128);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin: 0 auto;
     letter-spacing: 0.2px;
     position: relative;
@@ -354,3 +357,29 @@ label {
     transform: translateY(0);
     opacity: 1;
 }
+
+.backgroundSetting {
+    background-color: #12121291;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    backdrop-filter: blur( 4px );
+}
+
+.paddingSetting {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+@media (min-width: 767px) {
+    .backgroundSetting {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .paddingSetting {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
