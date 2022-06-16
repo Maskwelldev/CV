@@ -275,7 +275,7 @@ label {
     list-style: none;
     text-align: left;
     max-width: 40%;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 
 }
 
@@ -400,7 +400,10 @@ label {
     padding-right: 24px;
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
+    body {
+        background: url(../img/backgroundtest) no-repeat center center fixed;
+    }
     .backgroundSetting {
         padding-left: 60px;
         padding-right: 60px;
