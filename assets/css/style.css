@@ -28,6 +28,20 @@ h6 {
     color: white;
 }
 
+h3 {
+    color: rgb(120, 217, 120);;
+}
+
+h4 {
+    color: #aaabe9;
+    font-size: 1.1em;
+    
+}
+
+#titleBackEnd {
+    padding-top: 24px;
+}
+
 .logo {
     width: 34px;
     filter: invert(1);
@@ -187,7 +201,7 @@ video {
 }
 
 .progress-bar {
-    background-color: #14168f !important;
+    background-color: #7778b5;
 }
 
 label {
@@ -260,6 +274,14 @@ label {
 .sectionSkills {
     padding-top: 24px;
     padding-bottom: 24px;
+}
+
+.date {
+    margin-top: 24px;
+}
+
+.greenColor {
+    color: rgb(120, 217, 120);
 }
 
 .section-portfolio {
@@ -373,8 +395,8 @@ label {
 }
 
 .timeline .event:after {
-    -webkit-box-shadow: 0 0 0 3px #aaabe9;
-    box-shadow: 0 0 0 3px #aaabe9;
+    -webkit-box-shadow: 0 0 0 3px rgb(120, 217, 120);;
+    box-shadow: 0 0 0 3px rgb(120, 217, 120);;
     left: -55.8px;
     background: #fff;
     border-radius: 50%;
@@ -443,7 +465,7 @@ label {
 
 @media (max-width: 767px) {
     body {
-        background: url(../img/mobileBackground.png) no-repeat center center fixed;
+        /* background: url(../img/mobileBackground.png) no-repeat center center fixed; */
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
