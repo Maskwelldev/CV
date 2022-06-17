@@ -133,6 +133,10 @@ p {
     width: 100%;
 }
 
+input, textarea {
+    opacity: 0.7;
+}
+
 .button-color {
     background-color: #14168f !important;
     border: none;
