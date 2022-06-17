@@ -29,7 +29,7 @@ h6 {
 }
 
 h3 {
-    color: rgb(120, 217, 120);;
+    color: rgb(120, 217, 120);
 }
 
 h4 {
@@ -57,7 +57,7 @@ p {
 }
 
 .linkStyle:hover {
-    color: gold;
+    color: rgb(120, 217, 120);
     text-decoration: none;
 }
 
@@ -112,6 +112,7 @@ p {
 
 .card img {
     transition: all 0.8s;
+    opacity: 0.8;
 }
 
 .card-container:hover {
