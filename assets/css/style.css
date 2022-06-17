@@ -113,6 +113,10 @@ p {
     transform:  translate(20%, 20%) scale(1.5);
 }
 
+.card:hover .fab {
+    opacity: 1;
+    color: black;
+}
 
 .img-container {
     overflow: hidden;
@@ -125,6 +129,8 @@ p {
 .fab {
     color: "";
 }
+
+
 
 .fab:hover {
     color: #000000;
@@ -164,7 +170,7 @@ input, textarea {
 }
 
 .download-button {
-    padding-top: 32px;
+    padding-top: 28px;
     text-align: center;
 }
 
