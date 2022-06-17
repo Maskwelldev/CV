@@ -28,6 +28,11 @@ h6 {
     color: white;
 }
 
+.logo {
+    width: 34px;
+    filter: invert(1);
+}
+
 p {
     color: white;
 }
@@ -447,6 +452,11 @@ label {
     .paddingSetting {
         padding-left: 24px;
         padding-right: 24px;
+    }
+
+    .card-container:hover {
+        box-shadow: 0 70px 63px -60px rgb(255, 255, 255);
+        /* transform: rotate(7deg); */
     }
 }
 
