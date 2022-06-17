@@ -1,6 +1,5 @@
 body {
-    background: url(../img/backgroundtest.jpg) no-repeat center center fixed;
-    background-color: black;
+    background: url(../img/testMain.jpg) no-repeat center center fixed;
     background-size: cover; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -85,6 +84,7 @@ p {
     box-shadow: 0 1px 1px 0px black;
     transition: all 0.8s;
     background-color: rgba(0, 0, 0, 0.244);
+    border: none;
 }
 
 .card img {
@@ -92,7 +92,7 @@ p {
 }
 
 .card-container:hover {
-    box-shadow: 0 70px 63px -60px #aaabe9;
+    box-shadow: 0 70px 63px -60px black;
     /* transform: rotate(7deg); */
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 .card:hover img {
-    transform:  scale(1.5);
+    transform:  translate(20%, 20%) scale(1.5);
 }
 
 
@@ -118,7 +118,7 @@ p {
 }
 
 .fab:hover {
-    color: #aaabe9;
+    color: #000000;
 }
 
 
@@ -149,7 +149,7 @@ input, textarea {
 
 .button-color:hover {
     background-color: black !important;
-    color: greenyellow !important;
+    color: #aaabe9 !important;
 }
 
 .download-button {
