@@ -12,6 +12,12 @@ body {
     padding: 0;
 }
 
+.row {
+    padding:0%;
+    margin: 0%;
+    width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -26,26 +32,13 @@ p {
     color: white;
 }
 
-/* #btn1 {
-    position: relative;
-    animation: mymove 4s;
+.linkStyle {
+    color: white;
+    text-decoration: none;
 }
 
-
-@keyframes mymove {
-    from {
-        left: -200px;
-        opacity: 0;
-    }
-
-    to {
-        left: 0px;
-        opacity: 1;
-    }
-} */
-
 .user-quote {
-    font-size: 1.1rem !important;
+    font-size: 1 !important;
     text-align: justify;
 }
 
@@ -54,7 +47,9 @@ p {
 }
 
 .background-container {
-    margin-top: 15px
+    margin-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .card-text {
@@ -140,6 +135,11 @@ input, textarea {
 .button-color {
     background-color: #14168f !important;
     border: none;
+}
+
+.download-button {
+    padding-top: 32px;
+    text-align: center;
 }
 
 .img-portfolio,
@@ -262,6 +262,9 @@ label {
 @media (min-width: 768px) {
     .user-quote {
         padding-right: 24px;
+    }
+    .row {
+        margin: 0px !important;
     }
 }
 
@@ -396,8 +399,8 @@ label {
 }
 
 .backgroundSetting {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
     padding-bottom: 24px;
     background: rgba( 0, 0, 0, 0.65 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
