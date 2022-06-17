@@ -1,5 +1,6 @@
 body {
     background: url(../img/backgroundtest.jpg) no-repeat center center fixed;
+    background-color: black;
     background-size: cover; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -34,6 +35,11 @@ p {
 
 .linkStyle {
     color: white;
+    text-decoration: none;
+}
+
+.linkStyle:hover {
+    color: gold;
     text-decoration: none;
 }
 
@@ -91,8 +97,11 @@ p {
 }
 
 .card:hover img {
-    /* transform: scale(2); */
-    transform: translate(52%, 40%) scale(2.1);
+    /* transform: translate(52%, 40%) scale(2.1); */
+}
+
+.card:hover img {
+    transform:  scale(1.5);
 }
 
 
@@ -126,6 +135,7 @@ p {
 .quote-section {
     padding-top: 10px;
     width: 100%;
+    font-size: 16px;
 }
 
 input, textarea {
@@ -135,6 +145,11 @@ input, textarea {
 .button-color {
     background-color: #14168f !important;
     border: none;
+}
+
+.button-color:hover {
+    background-color: black !important;
+    color: greenyellow !important;
 }
 
 .download-button {
@@ -261,7 +276,7 @@ label {
 
 @media (min-width: 768px) {
     .user-quote {
-        padding-right: 24px;
+        padding-right: 40px;
     }
     .row {
         margin: 0px !important;
@@ -318,12 +333,6 @@ label {
     padding-bottom: 25px;
     margin-bottom: 25px;
     position: relative;
-}
-
-@media (max-width: 767px) {
-    .timeline .event {
-        /* padding-top: 30px; */
-    }
 }
 
 .timeline .event:last-of-type {
