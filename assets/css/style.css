@@ -29,7 +29,7 @@ h6 {
 }
 
 h3 {
-    color: rgb(120, 217, 120);
+    color: rgb(156, 217, 120);
 }
 
 h4 {
@@ -173,9 +173,16 @@ input, textarea {
 }
 
 .button-color {
-    background-color: black !important;
-    color: #aaabe9 !important;
-    border: none;
+    /* background-color: black !important; */
+    /* color: rgb(120, 180, 217) !important; */
+    color: white;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .button-color:hover {
@@ -282,7 +289,7 @@ label {
 }
 
 .greenColor {
-    color: rgb(120, 217, 120);
+    color: rgb(156, 217, 120);
 }
 
 .section-portfolio {
@@ -396,8 +403,8 @@ label {
 }
 
 .timeline .event:after {
-    -webkit-box-shadow: 0 0 0 3px rgb(120, 217, 120);;
-    box-shadow: 0 0 0 3px rgb(120, 217, 120);;
+    -webkit-box-shadow: 0 0 0 3px rgb(156, 217, 120);
+    box-shadow: 0 0 0 3px rgb(156, 217, 120);
     left: -55.8px;
     background: #fff;
     border-radius: 50%;
