@@ -38,11 +38,11 @@ h6 {
 }
 
 h3 {
-    color: rgb(156, 217, 120);
+    color: #B7F4D5;
 }
 
 h4 {
-    color: #aaabe9;
+    color: #B7F4D5;
     font-size: 1.1em;
 
 }
@@ -66,7 +66,7 @@ p {
 }
 
 .linkStyle:hover {
-    color: rgb(120, 217, 120);
+    color: #B7F4D5;
     text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ p {
 }
 
 .title-name {
-    color: rgb(255, 255, 255) !important;
+    color: #B7F4D5 !important;
 }
 
 .background-container {
@@ -165,7 +165,7 @@ p {
 .titleDev {
     font-size: 1.2rem;
     font-weight: 500;
-    color: #aaabe9;
+    color: #B7F4D5;
 }
 
 .navbar-padding {
@@ -199,7 +199,7 @@ textarea {
 .button-color:hover {
     background-color: black !important;
     /* color: white !important; */
-    color: rgb(156, 217, 120);
+    color: rgb(249, 255, 135);
     border: none;
 
 }
@@ -217,7 +217,8 @@ video {
 }
 
 .progress-bar {
-    background-color: #7778b5;
+    background-color: rgb(249, 255, 135);
+    color: black;
 }
 
 label {
@@ -297,7 +298,7 @@ label {
 }
 
 .greenColor {
-    color: rgb(156, 217, 120);
+    color: #B7F4D5;
 }
 
 .section-portfolio {
@@ -412,8 +413,8 @@ label {
 }
 
 .timeline .event:after {
-    -webkit-box-shadow: 0 0 0 3px rgb(156, 217, 120);
-    box-shadow: 0 0 0 3px rgb(156, 217, 120);
+    -webkit-box-shadow: 0 0 0 3px #B7F4D5;
+    box-shadow: 0 0 0 3px #B7F4D5;
     left: -55.8px;
     background: #fff;
     border-radius: 50%;
@@ -467,12 +468,8 @@ label {
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 24px;
-    background: rgba(0, 0, 0, 0.65);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    /* border-radius: 10px; */
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: #121212;
+    border: none;
 }
 
 .paddingSetting {
@@ -482,7 +479,7 @@ label {
 
 @media (max-width: 767px) {
     body {
-        background: url(../img/bgmobile3.png) no-repeat center center fixed;
+        background: url(../img/bgmobile2.png) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
