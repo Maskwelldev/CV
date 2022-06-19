@@ -227,7 +227,7 @@ video {
 }
 
 .progress-bar {
-    background-color: rgb(249, 255, 135);
+    background-color: rgb(244, 255, 31);
     color: black;
 }
 
@@ -292,6 +292,7 @@ label {
         typing 3.5s steps(200, end),
         blink-caret .75s step-end infinite;
 }
+
 
 .sectionSkills {
     padding-top: 24px;
@@ -447,7 +448,7 @@ label {
     border-top-right-radius: 0;
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
-    border-right: 3px solid #727cf5;
+    border-right: 3px solid #B7F4D5;
 }
 
 .rtl .timeline .event::before {
@@ -489,7 +490,7 @@ label {
 
 @media (max-width: 767px) {
     body {
-        background: url(../img/bgmobile2.png) no-repeat center center fixed;
+        background: url(../img/backgroundMobile3.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -527,7 +528,7 @@ label {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(10, 10, 53);
+    background: #B7F4D5;
     border-radius: 10px;
 }
 
