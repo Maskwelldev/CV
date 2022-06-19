@@ -53,7 +53,12 @@ h4 {
 
 .logo {
     width: 34px;
-    filter: invert(1);
+    filter: invert(91%) sepia(8%) saturate(1652%) hue-rotate(88deg) brightness(90%) contrast(79%);
+}
+
+.burgerColor {
+    width: 34px !important;
+    color: #B7F4D5 !important;
 }
 
 p {
@@ -210,7 +215,7 @@ textarea {
 .button-color:hover {
     background-color: rgba(0, 0, 0, 1) !important;
     /* color: white !important; */
-    color: #52e5ff;
+    color: #B7F4D5;
     border: none;
 
 }
@@ -223,13 +228,13 @@ video {
 
 }
 
-.btn-link {
+/* .btn-link {
     color: #f63b02;
-}
+} */
 
 .progress-bar {
     /* background-color: rgb(248, 255, 111); */
-    background-color: #52e5ff;
+    background-color: #8ad1ad;
     color: black;
 }
 
