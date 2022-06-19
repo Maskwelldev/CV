@@ -1,5 +1,5 @@
 body {
-    background: url(../img/testMain.jpg) no-repeat center center fixed;
+    background: url(../img/backgroundtest.jpg) no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,6 +16,15 @@ body {
     padding: 0%;
     margin: 0%;
     width: 100%;
+}
+
+.glassmorphism {
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 h1,
@@ -108,6 +117,7 @@ p {
     transition: all 0.8s;
     background-color: rgba(0, 0, 0, 0.244);
     border: none;
+    border-radius: 6px;
 }
 
 .card img {
@@ -187,7 +197,7 @@ textarea {
 }
 
 .button-color:hover {
-    background-color: #140b52 !important;
+    background-color: black !important;
     /* color: white !important; */
     color: rgb(156, 217, 120);
     border: none;
@@ -321,7 +331,7 @@ label {
 
 @media (min-width: 768px) {
     .user-quote {
-        padding-right: 40px;
+        /* padding-right: 40px; */
     }
 
     .row {
@@ -336,11 +346,11 @@ label {
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
     /* background: rgba(114, 124, 245, 0.09); */
-    background: rgba(255, 255, 255, 0.128);
+    background: rgba(0, 0, 0, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
+    border-radius: 6px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     margin: 0 auto;
     letter-spacing: 0.2px;
