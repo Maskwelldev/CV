@@ -227,7 +227,8 @@ video {
 }
 
 .progress-bar {
-    background-color: rgb(244, 255, 31);
+    /* background-color: rgb(248, 255, 111); */
+    background-color: #53FDFE;
     color: black;
 }
 
