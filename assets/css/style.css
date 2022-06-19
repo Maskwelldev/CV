@@ -164,6 +164,11 @@ p {
 }
 
 
+.encart {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
 .titleDev {
     font-size: 1.2rem;
     font-weight: 500;
