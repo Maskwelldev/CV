@@ -77,6 +77,8 @@ p {
 
 .title-name {
     color: #B7F4D5 !important;
+    font-weight: bold;
+    font-size: 1.6rem;
 }
 
 .background-container {
@@ -180,7 +182,10 @@ p {
 
 input,
 textarea {
-    opacity: 0.8;
+    color: rgb(255, 255, 255) !important; 
+    /* opacity: 0.4; */
+    background-color: #1212126f !important;
+    border: none !important;
 }
 
 .button-color {
@@ -197,7 +202,7 @@ textarea {
 }
 
 .button-color:hover {
-    background-color: black !important;
+    background-color: rgba(0, 0, 0, 0.484) !important;
     /* color: white !important; */
     color: rgb(249, 255, 135);
     border: none;
