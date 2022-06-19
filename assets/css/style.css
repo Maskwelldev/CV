@@ -57,8 +57,8 @@ h4 {
 }
 
 .burgerColor {
-    width: 34px !important;
-    color: #B7F4D5 !important;
+    /* height: 34px !important; */
+    /* color: #B7F4D5 !important; */
 }
 
 p {
@@ -233,7 +233,7 @@ video {
 
 .progress-bar {
     /* background-color: rgb(248, 255, 111); */
-    background-color: #f9f77e;
+    background-color: #42CEEE;
     /* background: linear-gradient(to right,  #B7F4D5, #2148B9); */
 
     color: black;
