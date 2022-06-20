@@ -233,11 +233,12 @@ video {
 
 .progress-bar {
     /* background-color: rgb(248, 255, 111); */
-    background-color: #42CEEE;
+    background-color: #f8e276;
     /* background: linear-gradient(to right,  #B7F4D5, #2148B9); */
 
     color: black;
 }
+
 
 label {
     color: white;
