@@ -84,7 +84,7 @@ p {
 }
 
 .title-name {
-    color: #B7F4D5 !important;
+    color: #03F7FC !important;
     font-weight: bold;
     font-size: 1.6rem;
 }
@@ -179,7 +179,7 @@ p {
 
 .titleDev {
     font-size: 1.2rem;
-    color: #B7F4D5;
+    color: #03D5FC;
 }
 
 .navbar-padding {
@@ -201,23 +201,19 @@ textarea {
 }
 
 .button-color {
-    /* background-color: black !important; */
-    /* color: rgb(120, 180, 217) !important; */
-    color: #B7F4D5;
-    /* From https://css.glass */
+    color: #03D5FC;
     background: rgba(0, 0, 0, 0.484     );
     border-radius: 4px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: none;
-    /* border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 .button-color:hover {
     background-color: rgba(0, 0, 0, 1) !important;
     /* color: white !important; */
-    color: #B7F4D5;
+    color: #03D5FC;
     border: none;
 
 }
@@ -227,7 +223,6 @@ video {
     width: 100% !important;
     height: auto !important;
     border-radius: 6px;
-
 }
 
 .progress-bar {
@@ -235,7 +230,7 @@ video {
     /* background-color: #dfff8d; */
     /* background-color: #162BC4; */
     /* background: linear-gradient(to right, #FEAA8D, #fff36f); */
-    background: linear-gradient(to right, #4892CA, #162BC4);
+    background: linear-gradient(to right, #03D5FC, #162BC4);
 
     color: black;
 }
@@ -319,7 +314,7 @@ label {
 }
 
 .greenColor {
-    color: #B7F4D5;
+    color: #03D5FC;
 }
 
 .section-portfolio {
@@ -434,8 +429,8 @@ label {
 }
 
 .timeline .event:after {
-    -webkit-box-shadow: 0 0 0 3px #B7F4D5;
-    box-shadow: 0 0 0 3px #B7F4D5;
+    -webkit-box-shadow: 0 0 0 3px #03D5FC;
+    box-shadow: 0 0 0 3px #03D5FC;
     left: -55.8px;
     background: #fff;
     border-radius: 50%;
@@ -458,7 +453,7 @@ label {
     border-top-right-radius: 0;
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
-    border-right: 3px solid #B7F4D5;
+    border-right: 3px solid #03D5FC;
 }
 
 .rtl .timeline .event::before {
@@ -538,7 +533,7 @@ label {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #B7F4D5;
+    background: #1d2d99;
     border-radius: 10px;
 }
 
