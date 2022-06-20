@@ -53,7 +53,8 @@ h4 {
 
 .logo {
     width: 34px;
-    filter: invert(91%) sepia(8%) saturate(1652%) hue-rotate(88deg) brightness(90%) contrast(79%);
+    filter: invert(61%) sepia(94%) saturate(207%) hue-rotate(327deg) brightness(102%) contrast(99%);
+    
 }
 
 .burgerColor {
@@ -230,7 +231,7 @@ video {
 .progress-bar {
     /* background-color: rgb(248, 255, 111); */
     /* background-color: #dfff8d; */
-    background: linear-gradient(to right, #FEB393, #fff36f);
+    background: linear-gradient(to right, #FEAA8D, #fff36f);
 
     color: black;
 }
