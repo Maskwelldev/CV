@@ -347,12 +347,11 @@ label {
 }
 
 @media (min-width: 768px) {
-    .user-quote {
-        /* padding-right: 40px; */
-    }
-
     .row {
         margin: 0px !important;
+    }
+    .navbarContainer {
+        padding-left: 74px;
     }
 }
 
@@ -387,6 +386,7 @@ label {
         max-width: 98%;
         padding: 25px;
     }
+    
 }
 
 .timeline h1 {
