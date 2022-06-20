@@ -38,11 +38,11 @@ h6 {
 }
 
 h3 {
-    color: #B7F4D5;
+    color: #03D5FC;
 }
 
 h4 {
-    color: #B7F4D5;
+    color: #03D5FC;
     font-size: 1.1em;
 
 }
@@ -515,7 +515,6 @@ label {
 
     .card-container:hover {
         box-shadow: 0 70px 63px -60px rgb(255, 255, 255);
-        /* transform: rotate(7deg); */
     }
 }
 
