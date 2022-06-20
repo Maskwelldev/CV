@@ -52,8 +52,10 @@ h4 {
 }
 
 .logo {
-    width: 34px;
-    filter: invert(61%) sepia(94%) saturate(207%) hue-rotate(327deg) brightness(102%) contrast(99%);
+    width: 36px;
+    border-radius: 2px;
+    /* filter: invert(61%) sepia(94%) saturate(207%) hue-rotate(327deg) brightness(102%) contrast(99%); */
+    filter: invert(25%) sepia(10%) saturate(1137%) hue-rotate(357deg) brightness(104%) contrast(98%);
     
 }
 
