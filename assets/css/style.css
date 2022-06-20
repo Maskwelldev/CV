@@ -74,7 +74,7 @@ p {
 }
 
 .linkStyle:hover {
-    color: #B7F4D5;
+    color: #03F7FC;
     text-decoration: none;
 }
 
@@ -318,7 +318,6 @@ label {
 }
 
 .section-portfolio {
-    padding-top: 24px;
     padding-bottom: 24px;
 }
 
