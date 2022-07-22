@@ -84,7 +84,7 @@ p {
 }
 
 .title-name {
-    color: #03F7FC !important;
+    color: #03D5FC !important;
     font-weight: bold;
     font-size: 1.6rem;
 }
@@ -202,7 +202,12 @@ textarea {
 
 .button-color {
     color: #03D5FC;
-    background: rgba(0, 0, 0, 0.484     );
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     border-radius: 4px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -249,6 +254,15 @@ label {
 
 .resume-list-title {
     text-transform: uppercase;
+}
+
+.card-body {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 /* personnalisation des icones de la carte */
@@ -476,6 +490,35 @@ label {
     opacity: 1;
 }
 
+/* pour les sections qu'on anime de gauche à droite */
+.appearsLeft {
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+/* pour le moment où il est activé */
+.appearsLeft.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* pour les sections qu'on anime de droite à */
+.appearsRight {
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+/* pour le moment où il est activé */
+.appearsRight.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
 .backgroundSetting {
     padding-left: 60px;
     padding-right: 60px;
@@ -541,3 +584,5 @@ label {
         opacity: 0;
     }
 }
+
+
