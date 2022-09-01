@@ -1,5 +1,5 @@
 body {
-    background: url(../img/backgroundtest.jpg) no-repeat center center fixed;
+    background: url(../img/testMain.jpg) no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -7,7 +7,7 @@ body {
     -ms-background-size: cover;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color: #fff;
+    color: #fff;    
     margin: 0;
     padding: 0;
 }
@@ -194,9 +194,9 @@ p {
 
 input,
 textarea {
-    color: rgb(255, 255, 255) !important; 
+    /* color: rgb(255, 255, 255) !important;  */
     /* opacity: 0.4; */
-    background-color: #1212126f !important;
+    background-color: #ffffff !important;
     border: none !important;
 }
 
